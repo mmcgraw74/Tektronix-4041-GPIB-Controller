@@ -1,0 +1,40 @@
+SYSVER 2.8 29-APR-85 09:46:04  SOFT ERRORS = 0        
+ FILE  FILE  LENGTH  START  NUMBER         LAST       
+ NAME  TYPE IN BYTES RECORD OF REC. MODIFICATION  DATE
+------ ---- -------- ------ ------- ------------------
+AUTOLD  IT     2550     5     10    13-SEP-84 16:08:00
+TERMIN  IT     8160    15     32    13-SEP-84 16:08:00
+SYSVER  IT     3570    47     14    13-SEP-84 16:09:00
+CONFIG  AS      510    61      2    01-JAN-81 00:02:00
+                255                                   
+PROCED  IT     1020    64      4    13-SEP-84 16:09:00
+LINK    IT      765    68      3    13-SEP-84 16:09:00
+DISP    IT     1275    71      5    13-SEP-84 16:09:00
+KEYPAD  IT     1530    76      6    13-SEP-84 16:09:00
+PRINTE  IT      765    82      3    13-SEP-84 16:09:00
+TAPE    IT     4590    85     18    13-SEP-84 16:10:00
+SOFTER  IT      765   103      3    13-SEP-84 16:10:00
+IO      IT     4590   106     18    13-SEP-84 16:10:00
+                255                                   
+TIMER   IT     1530   125      6    13-SEP-84 16:10:00
+PDKYBD  IT     4335   131     17    13-SEP-84 16:11:00
+GPIB    IT     2040   148      8    13-SEP-84 16:11:00
+GPIBLB  IT     3315   156     13    13-SEP-84 16:11:00
+GPIBCO  IT     2040   169      8    13-SEP-84 16:11:00
+SLAVE   IT     3315   177     13    13-SEP-84 16:11:00
+MASTER  IT     1785   190      7    13-SEP-84 16:12:00
+PAUS    IT      765   197      3    13-SEP-84 16:12:00
+TPCAL   IT     1275   200      5    13-SEP-84 16:12:00
+PTRCAL  IT     1020   205      4    13-SEP-84 16:12:00
+FRMAT   IT     1020   209      4    13-SEP-84 16:12:00
+TSTPTN  IT     2040   213      8    13-SEP-84 16:12:00
+CHKOPT  IT     1275   221      5    18-SEP-84 13:04:00
+OPT2    IT      765   226      3    13-SEP-84 16:12:00
+HELP    IT     3060   229     12    13-SEP-84 16:12:00
+PDTEST  IT      255   241      1    13-SEP-84 16:12:00
+SCSI    IT     2550   242     10    13-SEP-84 16:13:00
+TSYSVR  AS     4080   252     16    13-SEP-84 16:13:00
+TSCSI   AS     3315   268     13    13-SEP-84 16:13:00
+TDIR    AS     2295   281      9    01-JAN-81 00:25:00
+              94605                                   
+*
