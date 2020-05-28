@@ -11,10 +11,10 @@ The Graphics ROMs were Motorola 68766C35 24pin 8Kx8 EPROMs.
 Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPROM and transferred the data to the PC.  Set Translation Format to 83 so they can be loaded into PC with DEBUG.COM  HEX files can be loaded with DEBUG.  TXT files are in the default Data I/O format 81.
 
 
-| column 1 | column 2 |
-|:----------:|----------|
-| value | <p>value 1<br>value 2</p> |
-| value | <p>value 1<br>value 2</p> |
+| column 1 | column 2 | column 2 |
+|:----------:|----------|----------|
+| value | <p>value 1<br>value 2</p>value 3</p>  |
+| value | <p>value 1<br>value 2</p>value 2</p> |
 
 			‘Left ROM’ Checksum	‘Right ROM’ Checksum
 			Part Number		Part Number	
