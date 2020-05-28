@@ -1,5 +1,5 @@
 TEKTRONIX 4041 OPTION ROMS – Oct 2, 2000 mcm
-
+-----
 I got two Tek 4041 GPIB controllers.  Both had the programming ROM set.  One had four other option ROM sets:  4041R01 Graphics, 4041R02 Plotting, 4041R03 Signal Processing, and 4041R04 Utility – all labeled Version 2.1
 
 The Option ROMs were in 24pin Molex Low-insertion force carriers P/N 8878 24-D, the ROM tray used Molex  8878 24S sockets.  Neither of these parts could be found on an internet search.  I went to the Molex website and found they still make 24 pin LIF carriers 50-39-5248 and matching sockets but I couldn’t find any in stock in internet electronics distributors.  The 28 pin versions were in stock and around $2.50 a mated set at Carlton-Bates, so I ordered 6 sockets 15-29-9282 and 16 carriers 50-39-5288.
