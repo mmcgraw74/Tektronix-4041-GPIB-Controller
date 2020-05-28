@@ -13,8 +13,8 @@ Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPRO
 
 | column 1 | column 2 | column 3 |
 |:----------:|----------|----------|
-| value | <p>value 1 | <p>value 2 | <p>value 3</p>  |
-| value | <p>value 1<br>value 2<br>value 2</p> |
+| value | <p>value 1 | <p>value 2 | <p>value 3</p> |
+| value | <p>value 1 | <p>value 2 | <p>value 2</p> |
 
 			‘Left ROM’ Checksum	‘Right ROM’ Checksum
 			Part Number		Part Number	
