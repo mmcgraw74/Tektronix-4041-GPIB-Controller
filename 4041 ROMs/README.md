@@ -13,12 +13,12 @@ Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPRO
 
 | Name | Left ROM P/N  | Checksum | Right ROM P/N | Checksum |
 |:-----------------:|----------|----------|----------|----------|
-| Graphics ROMs B020801 | <p>160-1755-01 | <p>96F5 | <p>160-1756-01 | <p>2071</p> |
-| Plotting ROMs  B010807 | <p>160-1889-00 | <p>4D5F | <p>160-1890-00 | <p>1938</p> |
-| Signal Processing B010818 | <p>160-1984-00 | <p>4057 | <p>160-1985-00 | <p>945E</p> |
-| Utility #1 ROM B020781 | <p>160-2221-01 | <p>1034 | <p>160-2222-01 | <p>721B</p> |
-| Pgm Dev ROM1 4041F30 | <p>160-1246-02 | <p>C34E | <p>160-1247-02 | <p>C250</p> |
-| Pgm Dev ROM2 4041F30 | <p>160-1335-02 | <p>5D6B | <p>160-1336-02 | <p>C8DE</p> |
+| Graphics ROMs v2.1 B020801 | <p>160-1755-01 | <p>96F5 | <p>160-1756-01 | <p>2071</p> |
+| Plotting ROMs v2.1 B010807 | <p>160-1889-00 | <p>4D5F | <p>160-1890-00 | <p>1938</p> |
+| Signal Processing v2.1 B010818 | <p>160-1984-00 | <p>4057 | <p>160-1985-00 | <p>945E</p> |
+| Utility #1 v2.1 ROM B020781 | <p>160-2221-01 | <p>1034 | <p>160-2222-01 | <p>721B</p> |
+| Pgm Dev ROM1 v2.1 4041F30 | <p>160-1246-02 | <p>C34E | <p>160-1247-02 | <p>C250</p> |
+| Pgm Dev ROM2 v2.1 4041F30 | <p>160-1335-02 | <p>5D6B | <p>160-1336-02 | <p>C8DE</p> |
 
 			‘Left ROM’ Checksum	‘Right ROM’ Checksum
 			Part Number		Part Number	
