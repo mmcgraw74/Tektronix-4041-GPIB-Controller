@@ -11,6 +11,7 @@ The Graphics ROMs were Motorola 68766C35 24pin 8Kx8 EPROMs.
 Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPROM and transferred the data to the PC.  
 
 .HEX file is just the hex digits for a single ROM
+
 .BIN file is the binary image for either a single ROM or the byte shuffled 16bit ROM image for disassembly
 
 | ROM Pack Label | Left ROM P/N  | Checksum | Right ROM P/N | Checksum |
