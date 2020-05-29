@@ -14,7 +14,7 @@ Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPRO
 | Name | Left ROM P/N  | Checksum | Right ROM P/N | Checksum |
 |:-----------------:|----------|----------|----------|----------|
 | Graphics ROMs B020801 | <p>160-1755-01 | <p>96F5 | <p>160-1756-01 | <p>2071</p> |
-| Plotting ROMs  B010807 | <p>value 1 | <p>value 2 | <p>value 2</p> |
+| Plotting ROMs  B010807 | <p>160-1889-00 | <p>4D5F | <p>160-1890-00 | <p>1938</p> |
 
 			‘Left ROM’ Checksum	‘Right ROM’ Checksum
 			Part Number		Part Number	
