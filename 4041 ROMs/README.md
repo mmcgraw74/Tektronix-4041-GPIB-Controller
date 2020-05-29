@@ -8,8 +8,10 @@ I used a Dremel to modify one 28 pin socket (pulled out two contacts at pins 13 
 
 The Graphics ROMs were Motorola 68766C35 24pin 8Kx8 EPROMs.
 
-Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPROM and transferred the data to the PC.  Set Translation Format to 83 so they can be loaded into PC with DEBUG.COM  HEX files can be loaded with DEBUG.  TXT files are in the default Data I/O format 81.
+Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPROM and transferred the data to the PC.  
 
+.HEX file is just the hex digits for a single ROM
+.BIN file is the binary image for either a single ROM or the byte shuffled 16bit ROM image for disassembly
 
 | ROM Pack Label | Left ROM P/N  | Checksum | Right ROM P/N | Checksum |
 |:-----------------:|----------|----------|----------|----------|
@@ -20,19 +22,3 @@ Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPRO
 | Pgm Dev ROM1 v2.1 4041F30 | <p>160-1246-03 | <p>C533 | <p>160-1247-03 | <p>C915</p> |
 | Pgm Dev ROM2 v2.1 4041F30 | <p>160-1335-03 | <p>7760 | <p>160-1336-03 | <p>EB34</p> |
 
-			‘Left ROM’ Checksum	‘Right ROM’ Checksum
-			Part Number		Part Number	
-Graphics ROMs B020801	160-1755-01	96F5	160-1756-01	2071
-Plotting ROMs  B010807 	160-1889-00	4D5F	160-1890-00	1938
-Signal Procesn  B010818	160-1984-00	4057	160-1985-00	945E
-Utility #1 ROM B020781	160-2221-01	1034	160-2222-01	721B
-
-The pgm dev ROMs were also 67866C35 EPROMs:
-
-Pgm Dev ROM1 4041F30	160-1246-03	C533	160-1247-03	C915
-Pgm Dev ROM2 4041F30	160-1335-03	7760	160-1336-03	EB34
-
-The other 4041 had Pgm Dev ROMs version 2.0
-
-Pgm Dev ROM1 4041F30	160-1246-02	C34E	160-1247-02	C250
-Pgm Dev ROM2 4041F30	160-1335-02	5D6B	160-1336-02	C8DE
