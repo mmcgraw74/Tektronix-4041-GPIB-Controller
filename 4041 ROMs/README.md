@@ -14,6 +14,8 @@ Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPRO
 
 .BIN file is the binary image for either a single ROM or the byte shuffled 16bit ROM image for disassembly
 
+Checksums are as reported by the Data I/O
+
 | ROM Pack Label | Left ROM P/N  | Checksum | Right ROM P/N | Checksum |
 |:-----------------:|----------|----------|----------|----------|
 | Graphics ROMs v2.1 B020801 | <p>160-1755-01 | <p>96F5 | <p>160-1756-01 | <p>2071</p> |
