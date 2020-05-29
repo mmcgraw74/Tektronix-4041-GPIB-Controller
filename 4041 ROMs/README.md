@@ -10,7 +10,7 @@ All the Option ROMs were Motorola 68766C35 24pin 8Kx8 EPROMs.
 
 Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPROM and transferred the data to the PC.  
 
-I used the hilo systems ALL-100 Universal Programmer byte shuffle utility to merge the two ROMs into a 16 bit binary file.  Their utility naming convention is ODD file for high byte and EVEN file for low byte.
+I used the hilo systems ALL-100 Universal Programmer byte shuffle utility to merge the two ROMs into a 16 bit binary file.      Their utility naming convention is ODD file for high byte and EVEN file for low byte.
 
 .ODD file is the binary image for the high byte (Right) ROM
 
