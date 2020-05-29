@@ -6,7 +6,7 @@ The Option ROMs were in 24pin Molex Low-insertion force carriers P/N 8878 24-D, 
 
 I used a Dremel to modify one 28 pin socket (pulled out two contacts at pins 13 and 16 and then Dremeled a groove on each side to accept the Tek 24 pin carriers.  The carriers have one notch on the pin 1 end and two notches on the pin 12 end.
 
-The Graphics ROMs were Motorola 68766C35 24pin 8Kx8 EPROMs.
+All the Option ROMs were Motorola 68766C35 24pin 8Kx8 EPROMs.
 
 Using my Data I/O Model 29B /w Unipak2 – Family 25/Pinout 29, I read each EPROM and transferred the data to the PC.  
 
