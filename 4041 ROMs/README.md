@@ -20,7 +20,7 @@ I used the hilo systems ALL-100 Universal Programmer byte shuffle utility to mer
 
 Checksums are as reported by the Data I/O
 
-| ROM Pack Label | Left ROM P/N  | Checksum | Right ROM P/N | Checksum |
+| ROM Pack Label | Left ROM P/N (EVN)  | Checksum | Right ROM P/N (ODD) | Checksum |
 |:-----------------:|----------|----------|----------|----------|
 | Graphics ROMs v2.1 B020801 | <p>160-1755-01 | <p>96F5 | <p>160-1756-01 | <p>2071</p> |
 | Plotting ROMs v2.1 B010807 | <p>160-1889-00 | <p>4D5F | <p>160-1890-00 | <p>1938</p> |
