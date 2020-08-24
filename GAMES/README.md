@@ -1,2 +1,2 @@
 games folder
-![](./4041%20loaded%20System%20Verification%20tape.jpg)
+![](./4041%20Artillery%20on%204052%20as%20terminal.jpg)
