@@ -39,9 +39,9 @@ September 5, 2020 - new 4041 received with DDU.
 
 4041 CPU board now has only 4 EPROMs, 2 for System ROM, 2 for Option 10 ROMs
 
-System ROMs were 27512 
-Option 10 ROMs were 27256
-SCSI Option 03 board had two D27128 EPROMs
+- System ROMs were 27512 
+- Option 10 ROMs were 27256
+- SCSI Option 03 board had two D27128 EPROMs
 
 CRC-16 are as reported by HxD
 
