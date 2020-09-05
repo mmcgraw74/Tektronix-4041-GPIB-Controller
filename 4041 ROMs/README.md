@@ -31,9 +31,13 @@ Checksums (CRC-16) are as reported by the Data I/O
 | Pgm Dev ROM1 v2.1 4041F30 | <p>160-1246-03 | <p>C533 | <p>160-1247-03 | <p>C915</p> |
 | Pgm Dev ROM2 v2.1 4041F30 | <p>160-1335-03 | <p>7760 | <p>160-1336-03 | <p>EB34</p> |
 
+----
 September 5, 2020 - new 4041 received with DDU.
+----
+
 4041 CPU board now has only 4 EPROMs, 2 for System ROM, 2 for Option 10 ROMs
 System ROMs were 27512, Option 10 ROMs were 27256
+
 CRC-16 are as reported by HxD
 
 | ROM Pack Label | Even ROM P/N (Socket#)  | CRC-16 | Odd ROM P/N (Socket#) | CRC-16 |
