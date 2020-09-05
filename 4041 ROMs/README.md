@@ -36,10 +36,10 @@ September 5, 2020 - new 4041 received with DDU.
 System ROMs were 27512, Option 10 ROMs were 27256
 CRC-16 are as reported by HxD
 
-| ROM Pack Label | Even ROM P/N (EVN)  | CRC-16 | Odd ROM P/N (ODD) | CRC-16 |
+| ROM Pack Label | Even ROM P/N (Socket#)  | CRC-16 | Odd ROM P/N (Socket#) | CRC-16 |
 |:-----------------:|----------|----------|----------|----------|
-| 4041 System ROMs v2.1 | <p>160-1755-01 | <p>6932 | <p>160-1756-01 | <p>8F54</p> |
-| Option 10 ROMs v2.1 | <p>160-3551-00 | <p>22A8 | <p>160-3552-00 | <p>23EA</p> |
-| Option 03 SCSI ROMs | <p>160-2812-01 | <p>D4A5 | <p>160-2811-01 | <p>2B43</p> |
+| 4041 System ROMs v2.1 | <p>160-3549-00 (U2102) | <p>6932 | <p>160-3550-00 (U2121) | <p>8F54</p> |
+| Option 10 ROMs v2.1 | <p>160-3551-00 (U2111) | <p>22A8 | <p>160-3552-00 (U2122) | <p>23EA</p> |
+| Option 03 SCSI ROMs | <p>160-2812-01 (U265) | <p>D4A5 | <p>160-2811-01 (U165) | <p>2B43</p> |
 
 
