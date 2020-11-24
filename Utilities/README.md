@@ -8,3 +8,7 @@ CopyTapeToFloppy.BAS is a BASIC program if you have the DDU option with SCSI flo
 Copy Floppy Sysver Files to Tape is another BASIC program if you have the DDU option and have run the program above on a floppy disk from a System Verification tape to create a floppy disk with all those files.  You then can use this floppy to create System Verification tapes.
 **************
 FLEX_DISK_DIR.TXT is the directory listing of my DDU floppy after using the CopyTapeToFloppy on each file on the System Verification disk.
+**************
+GAUTO is a file I added to the SYSVER tape and you can put it on a tape to simply change the system console from the PD keyboard to COMM0:
+**************
+MTPACK is a program that I found on a Tektronix service note for the 4041 to run the tape to the end and rewind it back to the beginning.
