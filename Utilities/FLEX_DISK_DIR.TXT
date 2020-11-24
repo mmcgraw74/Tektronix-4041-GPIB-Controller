@@ -1,0 +1,39 @@
+
+FLEX_DISK    File   Used    Unused  Start          Last         
+File Name    Type  Length   Length   Rec #   Modification  Date 
+------------ ---- -------- -------- ------- --------------------
+AUTOLD        IT     2700      372      17    23-NOV-20 14:36:38
+TERMIN        IT     7950      242      23    23-NOV-20 14:38:01
+SYSVER        IT     3412      172      39    23-NOV-20 14:38:35
+CONFIG        AS       87      425      46    23-NOV-20 14:39:01
+PROCED        IT      841      183      47    23-NOV-20 14:39:32
+LINK          IT      717      307      49    23-NOV-20 14:39:48
+DISP          IT     1199      337      51    23-NOV-20 14:40:12
+KEYPAD        IT     1294      242      54    23-NOV-20 14:40:32
+PRINTE        IT      760      264      57    23-NOV-20 14:40:52
+TAPE          IT     4412      196      59    23-NOV-20 14:41:13
+SOFTER        IT      529      495      68    23-NOV-20 14:41:34
+IO            IT     4379      229      70    23-NOV-20 14:41:55
+TIMER         IT     1357      179      79    23-NOV-20 14:42:23
+PDKYBD        IT     4194      414      82    23-NOV-20 14:43:00
+GPIB          IT     1937      111      91    23-NOV-20 14:43:18
+GPIBLB        IT     3225      359      95    23-NOV-20 14:43:43
+GPIBCO        IT     1896      152     102    23-NOV-20 14:44:02
+SLAVE         IT     3288      296     106    23-NOV-20 14:44:30
+MASTER        IT     1589      459     113    23-NOV-20 14:44:48
+PAUS          IT      717      307     117    23-NOV-20 14:45:09
+TPCAL         IT     1097      439     119    23-NOV-20 14:45:28
+PTRCAL        IT     1014       10     122    23-NOV-20 14:45:51
+FRMAT         IT      928       96     124    23-NOV-20 14:46:07
+TSTPTN        IT     1814      234     126    23-NOV-20 14:46:46
+CHKOPT        IT     1248      288     130    23-NOV-20 14:47:09
+OPT2          IT      695      329     133    23-NOV-20 14:47:24
+HELP          IT     2878      194     135    23-NOV-20 14:48:02
+PDTEST        AS       37      475     141    23-NOV-20 14:48:34
+SCSI          IT     2532       28     142    23-NOV-20 14:48:52
+TSYSVR        AS     3922      174     147    23-NOV-20 14:49:23
+TSCSI         AS     3256      328     155    23-NOV-20 14:49:46
+GAUTO         IT      194      318     162    23-NOV-20 14:50:11
+MTPACK        IT      909      115     163    23-NOV-20 14:50:28
+                   243200 
+*
