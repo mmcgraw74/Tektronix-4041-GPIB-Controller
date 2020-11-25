@@ -16,7 +16,7 @@ Records 2 through 4 contain the file names (16 bytes for each file):
 |:-----------------:|----------|----------|----------|----------|
 | <p>0x0-5 ASCII | <p>0x06-7 HEX | <p>0x8-9 HEX | <p>0xA ASCII "A" or "I" | <p>0xB-F HEX |
 
-Record CRCs must be in outside each record in the area used to seek to a particular record.
+Record CRCs must be outside each record in the area used to seek to a particular record.
 
 
 **************
