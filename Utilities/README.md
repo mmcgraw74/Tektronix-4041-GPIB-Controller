@@ -10,7 +10,7 @@ Record 1 contains:
 |:-----------------:|----------|----------|----------|----------|
 | 0x0-9 10 ASCII | <p>0x0B-16 ASCII | <p>0x1C-1D HEX | <p>0x1E-25 ASCII | <p>0x33 |
 
-Records 2 through 4 contain the file names:
+Records 2 through 4 contain the file names (16 bytes for each file):
 
 | File Name | Starting Record# | # of 256 byte Records | File Type: ASCII or ITEM | File Creation Date/Time |
 |:-----------------:|----------|----------|----------|----------|
