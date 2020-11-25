@@ -20,11 +20,11 @@ I used the hilo systems ALL-100 Universal Programmer byte shuffle utility to mer
 
 .BIN file is the binary image for the byte shuffled 16bit ROM image for code disassembly
 
-Checksums (CRC-16) are as reported by the Data I/O
+Checksums (Checksum-16, NOT CRC-16) are as reported by the Data I/O
 
 | ROM Pack Label | Left ROM P/N (EVN)  | Checksum | Right ROM P/N (ODD) | Checksum |
 |:-----------------:|----------|----------|----------|----------|
-| Graphics ROMs v2.1 B020801 | <p>160-3549-00 | <p>96F5 | <p>160-1756-01 | <p>2071</p> |
+| Graphics ROMs v2.1 B020801 | <p>160-1755-00 | <p>96F5 | <p>160-1756-01 | <p>2071</p> |
 | Plotting ROMs v2.1 B010807 | <p>160-1889-00 | <p>4D5F | <p>160-1890-00 | <p>1938</p> |
 | Signal Processing v2.1 B010818 | <p>160-1984-00 | <p>4057 | <p>160-1985-00 | <p>945E</p> |
 | Utility #1 v2.1 ROM B020781 | <p>160-2221-01 | <p>1034 | <p>160-2222-01 | <p>721B</p> |
@@ -43,7 +43,7 @@ September 5, 2020 - new 4041 received with DDU.
 - Option 10 ROMs were 27256
 - SCSI Option 03 board had two D27128 EPROMs
 
-CRC-16 are as reported by HxD
+CRC-16 (Not Checksum-16 like the above table) are as reported by HxD
 
 | ROM Pack Label | Even ROM P/N (Socket#)  | CRC-16 | Odd ROM P/N (Socket#) | CRC-16 |
 |:-----------------:|----------|----------|----------|----------|
