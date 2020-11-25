@@ -1,4 +1,24 @@
 These are utility program files I created to build the System Verification tape
+---------------
+I wrote the TAPEDUMP program to capture every byte on the System Verification (or any other 4041 tape).
+
+I was able to determine how the "68000 Big-Endian address mode" 4041 file system works:
+
+Record 1 contains:
+
+| Tape Name | 4041 FW Version | # of 256 byte Records | Tape Formatted Date/Time | # Soft Errors |
+|:-----------------:|----------|----------|----------|----------|
+| 0x0-9 10 ASCII | <p>0x0B-16 ASCII | <p>0x1C-1D HEX | <p>0x1E-25 ASCII | <p>0x33 |
+
+Records 2 through 4 contain the file names:
+
+| File Name | Starting Record# | # of 256 byte Records | File Type: ASCII or ITEM | File Creation Date/Time |
+|:-----------------:|----------|----------|----------|----------|
+| 0x0-5 ASCII | <p>0x06-7 HEX | <p>0x8-9 HEX | <p>0xA ASCII "A" or "I" | <p>B-F HEX |
+
+Record CRCs must be in outside each record in the area used to seek to a particular record.
+
+
 **************
 4041 Clone SysVer4 Tape.tx is a BASIC program that can be downloaded over COMM0 to any 4041 with 512KB of memory.
 Run this program with a formatted DC100 tape in your 4041.  This program will automatically create every file on the System Verification tape version 2.8 (I believe this is the latest version - it is the version listed in the latest service manuals posted on the TekWiki).
