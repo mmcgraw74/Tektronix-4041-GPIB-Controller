@@ -2,7 +2,7 @@ These are utility program files I created to build the System Verification tape
 ---------------
 I wrote the TAPEDUMP program to capture every byte on the System Verification (or any other 4041 tape).
 
-I was able to determine how the "68000 Big-Endian address mode" 4041 file system works examining the Sysver complete tape dump:
+I was able to determine how the "68000 **Big-Endian** address mode" 4041 file system works examining the Sysver complete tape dump:
 
 Record 1 contains:
 
