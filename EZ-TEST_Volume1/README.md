@@ -41,19 +41,19 @@ I put readable versions of the help files in the formatted file folder.
 
 HSELIN help file lists the Tektronix GPIB instruments supported by the EZ-TEST Generator:
 
-  *DC 5009/DC 5010 Counter/Timer 
-  *2445/2465 Portable Oscilloscope 
-  *DM 5010 Multi-meter 
-  *FG 5010 Function Generator 
-  *PS 5010 Power Supply 
-  *MI 5010 Multi-function Interface with cards 
-                     *50M10 ADC
-                     *50M20 DAC
-                     *50M30 DIO
-                     *50M40 RSC
-                     *50M41 LLRSC
-                     *50M50 MEMORY
-                     *50M70 DEV   
-  *SI 5010 RF Signal Scanner 
+  * *DC 5009/DC 5010 Counter/Timer* 
+  * *2445/2465 Portable Oscilloscope* 
+  * *DM 5010 Multi-meter* 
+  * *FG 5010 Function Generator* 
+  * *PS 5010 Power Supply* 
+  * *MI 5010 Multi-function Interface with cards* 
+                     *50M10 ADC*
+                     *50M20 DAC*
+                     *50M30 DIO*
+                     *50M40 RSC*
+                     *50M41 LLRSC*
+                     *50M50 MEMORY*
+                     *50M70 DEV*   
+  * *SI 5010 RF Signal Scanner* 
 
 I hope to create a tape restore program from the BAKAL1 program, that could be used to create a complete tape from the HEX dump file I made.
