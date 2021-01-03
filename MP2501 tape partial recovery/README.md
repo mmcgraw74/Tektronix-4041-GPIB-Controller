@@ -1,5 +1,5 @@
 **Tektronix 4041** was also offered as the GPIB controller as part of an **MP 2501 Measurement Package** with a 2105 Color Terminal and 7854 WPO oscilloscope, or an  MP 2901 Measurement Package with the TM5000 and Color Graphics Terminal as shown in the Tek 1985 catalog page below.
-
+---------
 Tektronix EZ-TEST software was part of both the packages for easy test procedure generation and development.
 ----------
 ![MP2501 tape](./MP%202501%20measurement%20package%20in%201985%20catalog.jpg)
