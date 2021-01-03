@@ -6,7 +6,7 @@ The EZ-TEST Vol1 and Vol2 tapes were in set of twelve 4041 DC100A tapes that wer
 
 Not shown in the photo is the twelfth tape which was the System Verification Tape, posted in a separate folder on this repository.
 
-EZ-TEST Vol1 was not readable, but there was a copy of it that I was able to use with my tape dump program and BAKAL1 program from the MP2501 tape to finally get all the files.
+EZ-TEST Vol1 had read errors, but there was a copy of it that I was able to use with my tape dump program and BAKAL1 program from the MP2501 tape to finally get all the files.
 
 ![EZ-TEST Vol1 tapes](./EZ-TEST%20Vol1%20Tapes.jpg)
 EZ-TEST Vol2 files were also recovered and posted in a separate folder on this repository
