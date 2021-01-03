@@ -1,10 +1,10 @@
-Tektronix 4041 MP2501 tape was a bad copy of the original tape.
+Tektronix 4041 MP2501 tape was a partial copy of the original MP2501 tape.
 -------
-The directory list indicated the files would have required about 110KB or 2/3 of the DC100A tape, but the tape record 329 was the last record before the end of the tape :( .
+The directory list indicated the last files would have been written to record 429 on the DC100A tape, but the tape record 329 in the HEX dump was the last record before the end of the tape :( .
 -------
 ![MP2501 tape](./MP2501%20tape.jpg)
 -------
-In addition, previous owner must have mistakenly recorded their COMM0 configuration script over the MP2501 AUTOLD file, so that file was corrupted.
+In addition, previous owner must have mistakenly recorded their COMM0 configuration script over the MP2501 AUTOLD file, so the original AUTOLD file was corrupted.
 
 You can look at the remainder of the original AUTOLD file in the HEX dump.  This file starts at record 0x05 and ends at record 0x36 in the HEX dump.
 ```Assembly
