@@ -26,7 +26,7 @@ I found the BAKAL1 ASCII file to be a full tape backup program!  I have more inf
 -------
 I also noticed the UTL2 file and wondered what it was.  Looking at the tape dump text it looked like it was a loadable ROM file!
 
-```
+```assembler
 Record 37
 0        22 00 0C 34 30 34 31 20 52 6F 6D 70 61 63 6B 4C   "..**4041 Rompack**L
 1        40 BF 34 00 00 00 00 00 4C 40 7F 00 00 00 00 00   @.4.....L@.....
