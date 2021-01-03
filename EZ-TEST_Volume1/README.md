@@ -24,4 +24,5 @@ My 'newest' 4041 included the DDU disk drive unit and had a Tektronix MP2501 sti
 
 ![my 4041 and DDU](./My%20new%204041%20%26%20DDU%20are%20working%20small.jpg)
 
-The set of eleven 4041 tapes were packed in a box of 4052 tapes that I purchased from Stan Griffiths in 2000.
+The EZ-TEST Vol1 and Vol2 tapes were in set of eleven 4041 tapes were packed in a box of 4052 tapes that I purchased from Stan Griffiths in 2000.
+EZ-TEST Vol1 was not readable, but there was a copy of it that I could partially read.
