@@ -28,10 +28,10 @@ I also noticed the UTL2 file and wondered what it was.  Looking at the tape dump
 
 ```Assembly
 Record 37
-0        22 00 0C 34 30 34 31 20 52 6F 6D 70 61 63 6B 4C   "..**4041 Rompack**L
+0        22 00 0C 34 30 34 31 20 52 6F 6D 70 61 63 6B 4C   "..4041 RompackL
 1        40 BF 34 00 00 00 00 00 4C 40 7F 00 00 00 00 00   @.4.....L@.....
-2        00 4C 40 00 00 00 00 00 00 00 22 00 F0 4D 36 38   .L@......."..**M68**
-3        4B 08 01 55 54 4C 32 00 00 00 00 00 00 00 00 00   K..**UTL2**.........
+2        00 4C 40 00 00 00 00 00 00 00 22 00 F0 4D 36 38   .L@......."..M68
+3        4B 08 01 55 54 4C 32 00 00 00 00 00 00 00 00 00   K..UTL2.........
 4        6A 00 01 00 00 00 00 00 08 00 00 00 00 00 00 0A   j...............
 5        CE 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
 6        00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 20   ............... 
@@ -44,4 +44,39 @@ C        53 45 47 20 20 05 76 41 52 52 53 43 4C 20 20 07   SEG  .vARRSCL  .
 D        0C 48 49 53 54 4F 47 20 20 08 32 00 00 00 00 4E   .HISTOG  .2....N
 E        4C 58 4F 20 20 00 07 0C 07 00 AF 66 00 01 5C 4E   LXO  ......f..\N
 F        4C 58 4F 20 20 00 1F 0C 05 00 02 67 0E 0C 05 FF   LXO  ......g....
+```
+I then looked in the HEX dump for the LOADROMS call and found it in the fragment of MP2501 program:
+
+```
+Record 32
+0        BF 66 40 C5 3E 93 DC 01 3D 2C DE FF 00 00 04 CE   .f@.>...=,......
+1        0A D6 04 C4 00 00 0F 04 DC 02 3D DE 0A DA 04 C9   ..........=.....
+2        00 00 0F 04 DC 00 3E DE 1C 2B 04 CE 80 00 0F 16   ......>..+......
+3        CE 00 08 BF 0C CC 04 55 54 4C 32 AF C3 AF BF 66   .......UTL2....f
+4        40 DC 00 3E 93 DE 1A 43 04 D3 00 00 1D 14 FB 08   @..>...C........
+5        4C 4F 41 44 52 4F 4D 53 CC 04 55 54 4C 32 FD FC   LOADROMS..UTL2..
+6        DE FF 18 27 04 D8 00 40 1A 12 DB 00 CC 05 20 20   ...'...@......  
+7        20 20 20 CE 00 01 BF 0C AA 6A DE FF 1E 28 04 DD      ......j...(..
+8        00 00 13 18 DD 04 CC 11 20 20 20 20 20 62 79 74   ........     byt
+9        65 73 20 6F 66 20 52 41 4D BB DE FF 28 5E 04 E2   es of RAM...(^..
+A        00 00 13 22 DD 05 CC 1C 20 20 20 20 20 41 76 61   ..."....     Ava
+B        69 6C 61 62 6C 65 20 55 73 65 72 20 4D 65 6D 6F   ilable User Memo
+C        72 79 3A 20 BB DE 16 81 04 E7 02 00 FF 10 CD 0B   ry: ............
+D        20 32 38 61 2C 36 44 2C 31 38 61 42 DE FF 1C F3    28a,6D,18aB....
+E        04 EC 00 08 1A 12 C5 9E DD 05 CE 00 0F 04 AF BF   ................
+F        0B AF DD 04 AF B4 6A DE 00 00 04 E7 0A 2A 04 FF   ......j......*..
+```
+------
+LOADROMS experiment
+------
+I then tried the LOADROMS call listed in the 4041 UTILITY ROM option:
+
+```Assembly
+LOADROMS "UTL2"
+```
+and got the following response (see the loadroms test file in this folder):
+```Assembly
+ *** ERROR # 6007
+                                                             
+Attempting to load a rompack that is already present in the system
 ```
