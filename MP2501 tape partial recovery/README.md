@@ -69,7 +69,7 @@ F        0B AF DD 04 AF B4 6A DE 00 00 04 E7 0A 2A 04 FF   ......j......*..
 ------
 LOADROMS experiment
 ------
-I then tried the LOADROMS call listed in the 4041 UTILITY ROM option:
+I then tried the LOADROMS call listed in the 4041 UTILITY ROM option to try to load the ROM in the UTL2 tape file:
 
 ```Assembly
 LOADROMS "UTL2"
@@ -80,3 +80,17 @@ and got the following response (see the loadroms test file in this folder):
                                                              
 Attempting to load a rompack that is already present in the system
 ```
+**Great!**  My 4041 for this test had the new board including the UTL2 option ROM.
+
+I then powered up my older 4041 that didn't have the UTL2 option ROM and tried the same test:
+```Assembly
+LOADROMS "UTL2"
+                                                               
+*ARRSCL
+                                                                               
+ *** ERROR # 52
+                                                               
+Undefined variable
+```
+I got no error message this time, so I typed in ARRSCL which is a UTL2 ROM call listed in the latest 4041 Service Manual in an appendix, and got the undefined variable error message - as I had not put in the required parameters.
+           
