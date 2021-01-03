@@ -24,7 +24,7 @@ Note that the byte at 0xFF in Record 0x05 is 0x4E, which causes the BASIC ROM to
 -------
 I found the BAKAL1 ASCII file to be a full tape backup program!  I have more info in a separate folder for BAKAL1 in this repo.
 -------
-I also noticed the UTL2 file and wondered what it was.  Looking at the tape dump text it looked like it was a loadable ROM file!
+I also noticed the **UTL2** file and wondered what it was.  Looking at the tape dump text it looked like it was a **loadable M68K ROM file!**
 
 ```Assembly
 Record 37
@@ -45,7 +45,7 @@ D        0C 48 49 53 54 4F 47 20 20 08 32 00 00 00 00 4E   .HISTOG  .2....N
 E        4C 58 4F 20 20 00 07 0C 07 00 AF 66 00 01 5C 4E   LXO  ......f..\N
 F        4C 58 4F 20 20 00 1F 0C 05 00 02 67 0E 0C 05 FF   LXO  ......g....
 ```
-I then looked in the HEX dump for the LOADROMS call and found it in the fragment of MP2501 program:
+I then looked in the HEX dump for the **LOADROMS** call and found it in the fragment of **MP2501** program:
 
 ```Assembly
 Record 32
@@ -93,4 +93,17 @@ LOADROMS "UTL2"
 Undefined variable
 ```
 I got no error message this time, so I typed in ARRSCL which is a UTL2 ROM call listed in the latest 4041 Service Manual in an appendix, and got the undefined variable error message - as I had not put in the required parameters.
+-----
+Bottom line, I had hoped to find how to put missing option ROMs in tape files - however you will notice this UTL2 file is not the same as the UTL2.ROM which is my extracted UTL2 file from my 4041 option ROMs on the main 68000 CPU board.
+
+Not only is there an extra set of header bytes in front of the ROM, the UTL2 contents are also slightly different in the file compared to the actual UTL2.ROM.
+----------
+The MP2501 program has the following requirements:
+* Program Development ROMs
+* Graphics ROMs
+* Plotting ROMs
+* Signal Processing ROMs
+* Utility 1 ROMs
+* Utility 2 ROMs (UTL2)
+* Tektronix 4100 or compatible graphics terminal
            
