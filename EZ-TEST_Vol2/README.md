@@ -1,4 +1,4 @@
-Tektronix EZ-Test Volume 2 contained the programs for the "Translator".  As the Tek 1987 catalog page below indicates, the Translator can take Generator scripts and create a standalone test automation program that runs faster and takes less 4041 memory.
+Tektronix EZ-Test Volume 2 contained the programs for the "Translator".  As the Tek 1987 catalog page below indicates, the Translator can take Generator scripts and create a standalone test automation program that runs faster and takes less 4041 memory, plus the resulting BASIC program can easily be modified to add features not available in the EZ-Test Generator.
 ------------
 ![EZ-TEST catalog page](./TEK%20EZ-TEST%20in%201987%20catalog.jpg)
 
