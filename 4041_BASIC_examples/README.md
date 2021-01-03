@@ -1,3 +1,9 @@
+This tape had several short 4041 example programs, and was quickly captured as all the files were ASCII.
+-------------
+![4041 BASIC examples tape](./4041%20BASIC%20examples%20tape.jpg)
+
+
+
 AUTOLD	 select console, save FRTP or Serial console settings, or launch a program
 Example1 100Rem **** THIS PROGRAM CALCULATES THE FREQUENCY FOR A GIVEN PERIOD.****
 Example2 100Rem **** THIS PROGRAM CALCULATES THE COMBINED RISETIME OF PROBE & SCOPE
