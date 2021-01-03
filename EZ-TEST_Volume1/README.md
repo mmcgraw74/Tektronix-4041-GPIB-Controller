@@ -20,7 +20,7 @@ HEXECU  AS     5610   570     22    27-MAR-85 13:55:00
 HSELIN  AS     7650   592     30    27-MAR-85 13:58:00
                9435                               
 ```
-My 'newest' 4041 included the DDU disk drive unit and had a Tektronix MP2501 sticker below the tape slot on the 4041, but the hard disk did not work and no tapes were supplied with the unit I purchased this year (2020).
+My 'newest' 4041 included the DDU disk drive unit and had a Tektronix MP2501 sticker below the tape slot on the 4041, but the hard disk did not work and no tapes or floppy disks were supplied with the unit I purchased this year (2020).  I did get my DDU working by replacing both the SCSI hard disk and SCSI floppy drive.
 
 ![my 4041 and DDU](./My%20new%204041%20%26%20DDU%20are%20working%20small.jpg)
 
