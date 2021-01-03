@@ -2,7 +2,7 @@ Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files
 -------
 ![EZ-TEST Vol1 tape](./EZ-TEST%20Vol1%20and%20Vol2%20Tapes.jpg)
 -------
-HSELIN help file lists the Tektronix GPIB instruments supported by the EZ-TEST Generator:
+HSELIN help file lists the Tektronix GPIB instruments supported by EZ-TEST Generator and Translator:
 
   * *DC 5009/DC 5010 Counter/Timer* 
   * *2445/2465 Portable Oscilloscope* 
