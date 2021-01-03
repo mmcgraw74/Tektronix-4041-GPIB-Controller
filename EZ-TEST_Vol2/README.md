@@ -1,6 +1,6 @@
 Tektronix 4041 EZ-TEST version 5.0 Volume.2-Translator is a complete set of files that I was able to recover from the original EZ-TEST Vol2 tape and a copy of this tape.
 -------
-![EZ-TEST Vol1 tape](./EZ-TEST%20Vol1%20and%20Vol2%20Tapes.jpg)
+![EZ-TEST Vol1 tape](./EZ-TEST%20Vol2%20Tapes.jpg)
 -------
 EZ-TEST Vol1 tape files were also recovered and posted in a separate folder on this repository
 
