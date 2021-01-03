@@ -1,3 +1,4 @@
+**Tektronix 4041** was also offered as the GPIB controller as part of an **MP 2501 Measurement Package** as shown in the Tek 1985 catalog page below.
 ![MP2501 tape](./MP%202501%20measurement%20package%20in%201985%20catalog.jpg)
 
 
