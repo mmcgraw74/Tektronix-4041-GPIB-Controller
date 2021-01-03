@@ -6,7 +6,7 @@ BAKAL1 is very fast:
    * Only a couple of minutes to read an entire tape, and it only reads to the last record used, no matter how many records are formatted.
    * Second pass on the original verifies each record against the memory copy with a single string array compare command!
    * Full error handling in the program - stops the copy and prints the error message
-   * The second tape is formatted first
+   * The second tape is formatted
    * Then the original tape header is written to overwrite the first formatted record and the original timestamp or serial number is also written to the first record
    * Then the three original directory records are written, followed by the other records saved in memory
    * Finally, the second tape is reread to verify all records against the memory image.
