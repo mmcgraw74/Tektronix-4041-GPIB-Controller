@@ -1,6 +1,7 @@
 Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files that I was able to recover from the original EZ-TEST Vol1 tape and a copy of this tape.
 -------
 ![EZ-TEST Vol1 tape](./EZ-TEST%20Vol1%20and%20Vol2%20Tapes.jpg)
+![EZ-TEST Vol1 tapes](./EZ-TEST%20Vol1%20Tapes.jpg)
 -------
 EZ-TEST Vol2 files were also recovered and posted in a separate folder on this repository
 
