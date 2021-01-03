@@ -4,7 +4,6 @@ Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files
 The EZ-TEST Vol1 and Vol2 tapes were in set of eleven 4041 tapes were packed in a box of 4052 tapes that I purchased from Stan Griffiths in 2000.
 EZ-TEST Vol1 was not readable, but there was a copy of it that I was able to use with my tape dump program and BAKAL1 program from the MP2501 tape to finally get all the files.
 ![EZ-TEST Vol1 tapes](./EZ-TEST%20Vol1%20Tapes.jpg)
--------
 EZ-TEST Vol2 files were also recovered and posted in a separate folder on this repository
 
 The tape directory listing below indicated both EZ-TEST tapes and MP2501 tape had the same part number and serial number:
