@@ -2,7 +2,9 @@ Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files
 -------
 ![EZ-TEST Vol1 tape](./EZ-TEST%20Vol1%20and%20Vol2%20Tapes.jpg)
 
-The EZ-TEST Vol1 and Vol2 tapes were in set of eleven 4041 DC100A tapes that were included in a box of 4052 DC300 tapes that I purchased from Stan Griffiths in 2000.
+The EZ-TEST Vol1 and Vol2 tapes were in set of twelve 4041 DC100A tapes that were included in a box of 4052 DC300 tapes that I purchased from Stan Griffiths in 2000.
+
+Not shown in the photo is the twelfth tape which was the System Verification Tape, posted in a separate folder on this repository.
 
 EZ-TEST Vol1 was not readable, but there was a copy of it that I was able to use with my tape dump program and BAKAL1 program from the MP2501 tape to finally get all the files.
 
