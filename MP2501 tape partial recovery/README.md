@@ -71,7 +71,7 @@ LOADROMS experiment
 ------
 I then tried the LOADROMS call listed in the 4041 UTILITY ROM option:
 
-```Assembly
+```BlitzBasic
 LOADROMS "UTL2"
 ```
 and got the following response (see the loadroms test file in this folder):
