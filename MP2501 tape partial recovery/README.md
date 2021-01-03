@@ -107,4 +107,4 @@ The MP2501 program has the following requirements:
 * Utility 2 ROMs (UTL2)
 * Tektronix 4100 or compatible graphics terminal
            
-I believe MP2501 requirement for the averaging and other ROM calls in UTL2 was also the reason Tektronix put the UTL2 loadable ROM file on the MP2501 tape, as the original 4041s had a full Option ROM tray with Program Development (two slots), graphics, plotting, signal processing and utility1 option ROMs.
+I believe MP2501 requirement for the averaging and other ROM calls in UTL2 was also the reason Tektronix put the UTL2 loadable ROM file on the MP2501 tape, as the original 4041s had a full Option ROM tray with six slots with Program Development (two slots), graphics, plotting, signal processing and utility1 option ROMs.
