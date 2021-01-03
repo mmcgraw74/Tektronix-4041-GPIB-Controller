@@ -31,7 +31,9 @@ My 'newest' 4041 included the DDU disk drive unit and had a Tektronix MP2501 sti
 
 ![my 4041 and DDU](./My%20new%204041%20%26%20DDU%20are%20working%20small.jpg)
 
-AUTOLD is the main Generator program, and had been damaged like the MP2501 tape by the previous owner (potentially Tektronix 4041 software developers - since Stan Griffiths had worked at Tektronix for many years) recording a simple AUTOLD file on top of the Vol1 AUTOLD program on the copy tape. :(  I was able to recover the original AUTOLD file using my modified BAKAL3 program on the original unreadable Vol1 tape.
+AUTOLD is the main Generator program, and had been damaged like the MP2501 tape by the previous owner (potentially Tektronix 4041 software developers - since Stan Griffiths had worked at Tektronix for many years) recording a simple AUTOLD file on top of the Vol1 AUTOLD program on the copy tape. :(  
+
+I was able to recover the original AUTOLD file using my modified BAKAL3 program on the original unreadable Vol1 tape (days of work).
 
 The H* files are help text for the main program, and cannot be directly loaded into the 4041 from RS-232 serial as they are not valid BASIC program files.
 
