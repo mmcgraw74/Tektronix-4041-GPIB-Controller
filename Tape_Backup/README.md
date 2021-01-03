@@ -18,13 +18,13 @@ BAKAL1 was able to access the original Vol1 tape to get the original record 5 an
 I named my modified program BAKAL3, as BAKAL1 indicated it was version 2.
 
 I created a short program to write single records onto the copy tape, then used BAKAL3 to capture the HEX upload of the corrected Vol1 files.
-   1 Run BAKAL3 to capture a tape into memory
-   2 When prompted to insert the second tape, eject the first tape, then hit RETURN, which stops the BAKAL3 program
-   3 Type RUN 735 to start my PC upload part of BAKAL3 and type y to the prompted question
-   4 Configure your terminal emulator (I use Realterm) to capture the data to a file
-   5 Press RETURN for BAKAL3 to begin transmitting the memory image of the tape to the PC
-   6 As each record in memory is transferred, the RECORD number is printed to the 4041 front panel.
-   7 When the memory image of every record has been transmitted (in HEX) to the PC, the upload is complete and this is printed to the 4041 front panel
-   8 Stop the capture on the terminal emulator
+   1. Run BAKAL3 to capture a tape into memory
+   2. When prompted to insert the second tape, eject the first tape, then hit RETURN, which stops the BAKAL3 program
+   3. Type RUN 735 to start my PC upload part of BAKAL3 and type y to the prompted question
+   4. Configure your terminal emulator (I use Realterm) to capture the data to a file
+   5. Press RETURN for BAKAL3 to begin transmitting the memory image of the tape to the PC
+   6. As each record in memory is transferred, the RECORD number is printed to the 4041 front panel.
+   7. When the memory image of every record has been transmitted (in HEX) to the PC, the upload is complete and this is printed to the 4041 front panel
+   8. Stop the capture on the terminal emulator
    
 
