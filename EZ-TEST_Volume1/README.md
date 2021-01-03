@@ -1,7 +1,24 @@
 Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files that I was able to recover from the original EZ-TEST Vol1 tape and a copy of this tape.
 -------
 ![EZ-TEST Vol1 tape](./EZ-TEST%20Vol1%20and%20Vol2%20Tapes.jpg)
+-------
+HSELIN help file lists the Tektronix GPIB instruments supported by the EZ-TEST Generator:
 
+  * *DC 5009/DC 5010 Counter/Timer* 
+  * *2445/2465 Portable Oscilloscope* 
+  * *DM 5010 Multi-meter* 
+  * *FG 5010 Function Generator* 
+  * *PS 5010 Power Supply* 
+  * *MI 5010 Multi-function Interface with cards* 
+    * *50M10 ADC*
+    * *50M20 DAC*
+    * *50M30 DIO*
+    * *50M40 RSC*
+    * *50M41 LLRSC*
+    * *50M50 MEMORY*
+    * *50M70 DEV*   
+  * *SI 5010 RF Signal Scanner* 
+-----------
 The EZ-TEST Vol1 and Vol2 tapes were in set of twelve 4041 DC100A tapes that were included in a box of 4052 DC300 tapes that I purchased from Stan Griffiths in 2000.
 
 Not shown in the photo is the twelfth tape which was the System Verification Tape, posted in a separate folder on this repository.
@@ -38,22 +55,5 @@ I was able to recover the original AUTOLD file using my modified BAKAL3 program 
 The H* files are help text for the main program, and cannot be directly loaded into the 4041 from RS-232 serial as they are not valid BASIC program files.
 
 I put readable versions of the help files in the formatted file folder.
-
-HSELIN help file lists the Tektronix GPIB instruments supported by the EZ-TEST Generator:
-
-  * *DC 5009/DC 5010 Counter/Timer* 
-  * *2445/2465 Portable Oscilloscope* 
-  * *DM 5010 Multi-meter* 
-  * *FG 5010 Function Generator* 
-  * *PS 5010 Power Supply* 
-  * *MI 5010 Multi-function Interface with cards* 
-    * *50M10 ADC*
-    * *50M20 DAC*
-    * *50M30 DIO*
-    * *50M40 RSC*
-    * *50M41 LLRSC*
-    * *50M50 MEMORY*
-    * *50M70 DEV*   
-  * *SI 5010 RF Signal Scanner* 
 
 I hope to create a tape restore program from the BAKAL1 program, that could be used to create a complete tape from the HEX dump file I made.
