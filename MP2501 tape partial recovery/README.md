@@ -72,7 +72,7 @@ LOADROMS experiment
 I then tried the LOADROMS call listed in the 4041 UTILITY ROM option to try to load the ROM in the UTL2 tape file:
 
 ```Assembly
-LOADROMS "UTL2"
+*LOADROMS "UTL2"
 ```
 and got the following response (see the loadroms test file in this folder):
 ```Assembly
@@ -84,7 +84,7 @@ Attempting to load a rompack that is already present in the system
 
 I then powered up my older 4041 that didn't have the UTL2 option ROM and tried the same test:
 ```Assembly
-LOADROMS "UTL2"
+*LOADROMS "UTL2"
                                                                
 *ARRSCL
                                                                                
