@@ -4,7 +4,7 @@ Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files
 -------
 EZ-TEST Vol2 files were also recovered and posted in a separate folder on this repository
 
-The tape directory listing below indicated both EZ-TEST tapes and MP2501 tape had the same part number and serial number: 
+The tape directory listing below indicated both EZ-TEST tapes and MP2501 tape had the same part number and serial number:
 
 **S45F010_I  02-JAN-86 B050239** 
 
@@ -20,3 +20,6 @@ HEXECU  AS     5610   570     22    27-MAR-85 13:55:00
 HSELIN  AS     7650   592     30    27-MAR-85 13:58:00
                9435                               
 ```
+My 'newest' 4041 included the DDU disk drive unit and had a Tektronix MP2501 sticker below the tape slot on the 4041, but the hard disk did not work and no tapes were supplied with the unit I purchased this year (2020).
+
+The set of eleven 4041 tapes were packed in a box of 4052 tapes that I purchased from Stan Griffiths in 2000.
