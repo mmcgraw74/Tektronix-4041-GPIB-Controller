@@ -20,12 +20,12 @@ Records 2 through 4 contain the file names (16 bytes for each file):
 * ASC and ITEM files longer than one record have 0xFF at last byte of each record until the last record
 * Last byte of last record has a smaller value - which indicates how many bytes of this record are used
 
-To recover the ITEM files from a tape, I load the file into 4041 memory, then list the file and capture the ASCII output to my PC using Realterm.
+To recover the ITEM files or ASCII files from a tape, I load the file into 4041 memory, then list the file and capture the ASCII output to my PC using Realterm.
 Then I edit the ASCII file to restore the control characters - the 4041 list prints the control characters as ^X where X is the ASCII character typed with the Control key.
 
 Tektronix 4041 BASIC uses LF characters in PRINT statements for a new line and CR characters as the program line terminators, so I also remove LFs that follow CR characters in the dump.
 
-1. To recover an ASCII file from a HEX dump, I delete the FF from last byte of the intermediate records and use the last byte of the last record to crop the end of the file
+1. To recover an ASCII file from a HEX dump (where the tape directory is damaged), I delete the FF from last byte of the intermediate records and use the last byte of the last record to crop the end of the file
 2. Then I use Notepad++ editing commands to remove all the "Record x" statements, line counts and ASCII text at the end of every line.
 3. I then copy and paste the remaining HEX into an online HEX to BINARY file converter I found at: https://tomeko.net/online_tools/hex_to_file.php?lang=en
 4. The resulting converted file is the ASCII program or ASCII data file with all the proper control character formatting.
