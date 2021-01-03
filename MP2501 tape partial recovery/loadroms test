@@ -1,0 +1,135 @@
+
+                                                                               
+ *** ERROR # 853 
+                                                             
+No file exists
+                                                                
+*DIR
+                                                                          
+S45F010_I           
+                                                          
+ FILE  FILE  LENGTH 
+                                                          
+ NAME  TYPE IN BYTES
+                                                          
+------ ---- --------
+                                                          
+AUTOLD  IT     8160 
+                                                          
+UTL2    IT     4845 
+                                                          
+BAKAL1  AS     4845 
+                                                          
+MP2501  IT   109395 
+                                                          
+              46155 
+                                                          
+*LOADE"\"E\"BAKAL1"
+                                                           
+*
+                                                                             
+
+                                                                               
+ SYSTEM ABORTED
+                                                               
+*RUN
+                                                                          
+                          TAPE BACKUP PROGRAM                         
+        
+                                                                        
+      
+                                                                          
+    
+                 COPYRIGHT (c) 1984 by TEKTRONIX, INC.                
+        
+                          ALL RIGHTS RESERVED                         
+        
+   
+                                                                            
+    
+                                                                           
+     Enter Time DD-MON-YY HH:MM 28-DEC-20 11:58
+                               
+Place master tape in the tape drive and press <RETURN> :
+                      
+                                                          
+                    
+Place a tape in the tape drive and press <RETURN> :
+                           
+
+                                                                               
+ 
+                                                                              
+  Copy completed.  Do you wish another copy? <y> or <RETURN> to exit. 
+       
+*DIR
+                                                                          
+S45F010_I           
+                                                          
+ FILE  FILE  LENGTH 
+                                                          
+ NAME  TYPE IN BYTES
+                                                          
+------ ---- --------
+                                                          
+AUTOLD  IT     8160 
+                                                          
+UTL2    IT     4845 
+                                                          
+BAKAL1  AS     4845 
+                                                          
+MP2501  IT   109395 
+                                                          
+              46155 
+                                                          
+*LOADROMS UTL3\3\2
+                                                            
+
+                                                                               
+ SYSTEM ABORTED
+                                                               
+*LOADROMS "UTL2"
+                                                              
+                  
+                                                            
+
+                                                                               
+ *** ERROR # 6007
+                                                             
+Attempting to load a rompack that is already present in the system
+            
+*
+                                                                             
+*
+                                                                             
+*
+                                                                             
+*
+                                                                             
+*
+                                                                             
+*LOADROMS "UTL2"
+                                                              
+                  
+                                                            
+
+                                                                               
+ *** ERROR # 845 
+                                                             
+Additive checksum failure
+                                                     
+*
+                                                                             
+LOADROMS "UTL2"
+                                                               
+*ARRSCL
+                                                                       
+         
+                                                                     
+
+                                                                               
+ *** ERROR # 52
+                                                               
+Undefined variable
+                                                            
+*            
