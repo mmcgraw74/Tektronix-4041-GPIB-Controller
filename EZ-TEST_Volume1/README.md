@@ -1,3 +1,7 @@
+Tektronix EZ-TEST was 4041 software designed to make development of automated GPIB test procedures easy to develop.  Here is the Tek 1987 catalog page describing this program:
+----------------
+![EZ-TEST Vol1 tape](./TEK%20EZ-TEST%20in%201987%20catalog.jpg)
+
 Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files that I was able to recover from the original EZ-TEST Vol1 tape and a copy of this tape.
 -------
 ![EZ-TEST Vol1 tape](./EZ-TEST%20Vol1%20and%20Vol2%20Tapes.jpg)
