@@ -1,4 +1,4 @@
-Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files from the original EZ-TEST Vol1 tape.
+Tektronix 4041 EZ-TEST version 5.0 Volume.1-Generator is a complete set of files that I was able to recover from the original EZ-TEST Vol1 tape and a copy of this tape.
 -------
 ![EZ-TEST Vol1 tape](./EZ-TEST%20Vol1%20and%20Vol2%20Tapes.jpg)
 -------
@@ -25,4 +25,10 @@ My 'newest' 4041 included the DDU disk drive unit and had a Tektronix MP2501 sti
 ![my 4041 and DDU](./My%20new%204041%20%26%20DDU%20are%20working%20small.jpg)
 
 The EZ-TEST Vol1 and Vol2 tapes were in set of eleven 4041 tapes were packed in a box of 4052 tapes that I purchased from Stan Griffiths in 2000.
-EZ-TEST Vol1 was not readable, but there was a copy of it that I could partially read.
+EZ-TEST Vol1 was not readable, but there was a copy of it that I was able to use with my tape dump program and BAKAL1 program from the MP2501 tape to finally get all the files.
+
+AUTOLD is the main Generator program, and had been damaged like the MP2501 tape by the previous owner (potentially Tektronix 4041 software developers - since Stan Griffiths had worked at Tektronix for many years) recording a simple AUTOLD file on top of the Vol1 AUTOLD program on the copy tape. :(  I was able to recover the original AUTOLD file using my modified BAKAL3 program on the original unreadable Vol1 tape.
+
+The H* files are help text for the main program, and cannot be directly loaded into the 4041 from RS-232 serial as they are not valid BASIC program files.
+
+I hope to create a tape restore program from the BAKAL1 program, that could be used to create a complete tape from the HEX dump file I made.
