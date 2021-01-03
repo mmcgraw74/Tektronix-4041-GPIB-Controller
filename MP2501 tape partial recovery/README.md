@@ -7,7 +7,7 @@ The directory list indicated the files would have required about 110KB or 2/3 of
 In addition, previous owner must have mistakenly recorded their COMM0 configuration script over the MP2501 AUTOLD file, so that file was corrupted.
 
 You can look at the remainder of the original AUTOLD file in the HEX dump.  This file starts at record 0x05 and ends at record 0x36 in the HEX dump.
-```
+```Assembly
 S45F010_I  02-JAN-21 B050239   SOFT ERRORS = 0        
 FILE  FILE  LENGTH  START  NUMBER         LAST       
 NAME  TYPE IN BYTES RECORD OF REC. MODIFICATION  DATE
@@ -47,7 +47,7 @@ F        4C 58 4F 20 20 00 1F 0C 05 00 02 67 0E 0C 05 FF   LXO  ......g....
 ```
 I then looked in the HEX dump for the LOADROMS call and found it in the fragment of MP2501 program:
 
-```
+```Assembly
 Record 32
 0        BF 66 40 C5 3E 93 DC 01 3D 2C DE FF 00 00 04 CE   .f@.>...=,......
 1        0A D6 04 C4 00 00 0F 04 DC 02 3D DE 0A DA 04 C9   ..........=.....
@@ -71,7 +71,7 @@ LOADROMS experiment
 ------
 I then tried the LOADROMS call listed in the 4041 UTILITY ROM option:
 
-```BlitzBasic
+```Assembly
 LOADROMS "UTL2"
 ```
 and got the following response (see the loadroms test file in this folder):
