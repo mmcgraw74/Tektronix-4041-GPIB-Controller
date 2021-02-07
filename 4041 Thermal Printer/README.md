@@ -29,7 +29,7 @@ Since you cannot see the printer label indicating the proper motor voltage witho
 I have included in this folder the relevant schematic pages from the 4041 Service Manual highlighted to show the printer interface logic, and the Circuit Board Straps page showing the J150 'Diagnose B' jumper can be installed during printer testing to enable front panel keypad keys to be echoed to the display and printer without needing to load a program.  The System Verification Tape does contain a printer test program "PRINTE", but would require you have a tape loaded with all the System Verification files.  If you have configured the 4041 to operate from a PC with serial terminal emulation, delete the first line of the text version of the PRINTE subprogram (which converts it into a full program), and send the edited version to the 4041 from the PC terminal emulator and then RUN the program to test the entire character set.  To calibrate the dot timing, delete the first line of the PTRCAL subprogram and send it to the 4041.
 
 I found you can remove and replace the 4041 printer without removing the front panel:
--Remove the 4041 top cover and left side cover
--Remove the printer flex cable from the printer interface card
--Remove the four printer screws
--Push the printer up out of the printer bracket and move it toward the CPU board, then pull it out of the 4041.
+- Remove the 4041 top cover and left side cover
+- Remove the printer flex cable from the printer interface card
+- Remove the four printer screws
+- Push the printer up out of the printer bracket and move it toward the CPU board, then pull it out of the 4041.
