@@ -16,7 +16,7 @@ There are a couple of differences in the implementation of the Tektronix 4041 pr
 - The 4041 printhead voltage is unregulated 24V, while the AIM65 adjusts the voltage to the thermal printhead.
 - The 4041 adjustment for motor speed is on the Printer Interface card
 
-In both implementations, the horizontal dot timing is adjusted by loosening the Strobe Disk screw and twisting the strobe disk slightly while printing, then securing the strobe disk position by tightening the screw when the characters are even.
+In both implementations, the horizontal dot timing is adjusted by loosening the Strobe Disk screw and twisting the strobe disk slightly while printing, then securing the strobe disk position by tightening the screw when the character dots are aligned for the entire character.
 
 Neither the AIM65 nor Tektronix 4041 service manual indicate what is the proper voltage setting for the motor speed.
 
