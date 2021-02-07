@@ -24,4 +24,4 @@ My photo of the bottom view shows that the printers removed from two of my 4041 
 
 My research was triggered by repairing the thermal printer in my newer 4041, and trying component swaps from the older 4041.
 
-Since you cannot see the printer label indicating the proper motor voltage without removing the thermal printer, you should not simply swap the Printer Interface card which contains the adjustment for the motor voltage, without first adjusting the replacement printer interface card to the voltage on the 4041 printer label without the printer cable being installed.
+Since you cannot see the printer label indicating the proper motor voltage without removing the thermal printer, you should not simply swap the Printer Interface card which contains the adjustment for the motor voltage, without first adjusting the replacement printer interface card to the motor voltage on the 4041 printer label without the printer cable being installed.
