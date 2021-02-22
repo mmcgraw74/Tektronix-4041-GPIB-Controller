@@ -1,6 +1,6 @@
 One serious issue with using the 4041 - 40 years after it was manufactured - is getting the DC100A tapes (30 years since production stopped).  I have purchased NOS 3M DC100A tapes with date codes on the boxes of 1991, and all the tape drive belts in the tapes have broken.  Even worse, the tape belts have stuck to the oxide side of both takeup reels and when the broken belts are removed - the oxide is pulled off the tape completely - which causes the end-of-tape sensor to indicate the tape is unusable.
 
-A DC100A tape can be used to change the 4041 default front panel console to the COMM0: RS-232 port, if you can get one to work, which involves using the front panel keyboard connector and a PC with serial interface to emulate the keyboard to change the console.
+A DC100A tape can be used to change the 4041 default front panel console to the COMM0: RS-232 port, if you can get one to work, which involves using the front panel keyboard connector and a PC with serial interface to emulate the keyboard to change the console.  In addition, most PCs no longer have serial ports so a USB to TTL serial adapter is needed.  The 4041 has very strong pullup and pulldown resistors on the TX signal which require an open-collector driver capable of sinking 30mA of current.  I have posted modification instructions to the 4041 to allow a standard TTL driver to work - but that involves soldering on the 4041 front panel interface board.
 
 A second serious issue with using the 4041 is the lack of the custom 4041 Program Development keyboard, which could be used to type the two 4041 BASIC commands needed to change the default 4041 front panel as the console to the RS-232 COMM0: port standard on every 4041.
 
@@ -20,7 +20,7 @@ The second photo shows the top of the 4041 Console Commander
 
 My 4041 Console Commander features:
 - Gets 5V power for the Console Commander from the keyboard connector
-- The Commander includes a high current (30mA) open collector driver on the TX signal, required by the 4041 design
+- The Commander includes a high current (30mA) open collector driver on the TX signal, required by the 4041 design which works with all 4041s without modification
 - RGB LED in center of the button indicates state of operation
     - Commander LED lights GREEN briefly at 4041 power on (validates the Commander powered up successfully)
     - Commander LED lights BLUE when Commander button is pressed briefly to send console change commands to 4041
