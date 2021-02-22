@@ -36,3 +36,15 @@ This screenshot shows a previously saved game loaded into memory:
 
 ![Adventure Load game](./Adventure%20LOAD%20saved%20game.png)
 
+LOADing a previously saved game is easy - just type LOAD and then use Tera Term "Send file" to pick the saved game to send to the 4041.
+
+SAVEing a game is a little more complicated:
+
+-Type SAVE
+-select "Log" in Tera Term and type the filename (make sure to uncheck Append and check Plain Text)
+-press RETURN to begin sending the file to Tera Term
+-when the text file stops scrolling on Tera Term select "Stop Logging" which closes the Log file
+-now press RETURN to continue your Adventure!
+
+ENJOY!!
+
