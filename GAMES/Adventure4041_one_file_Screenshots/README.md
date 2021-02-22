@@ -1,5 +1,9 @@
 Adventure is a classic text game and it requires the 4041 have the Program Development ROMs installed in order to load the game to the 4041 over COMM0:.
 
+This version of my port of Adventure does not require any other files - all the files are embedding in one file, which dramatically speeds up game play and allows you to play the game without needing a tape or DDU floppy or hard disk like my earlier version of Adventure for the 4041.
+
+This version **may run on a 4041 with only 128KB of RAM - I just don't have one to test.**  I am confident it will run on 4041's with 256KB or 512KB of RAM.
+
 The screenshots are taken from my PC running Tera Term open-source terminal emulator:
 https://ttssh2.osdn.jp/index.html.en
 
