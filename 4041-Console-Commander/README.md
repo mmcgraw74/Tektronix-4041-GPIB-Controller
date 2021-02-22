@@ -7,8 +7,13 @@ A second serious issue with using the 4041 is the lack of the custom 4041 Progra
 After spending several months trying to keep my repaired DC100A tapes working to configure my 4041 console to COMM0: I have come up with a new solution:
 **********************
 # My 4041 Console Commander!
+**********************
 
-
+The two photos below show my 4041 Console Commander (tiny Gray box on top of my 4041) in operation
 ![Console Commander in operation](./Console%20Commander%20in%20operation-sm.jpg)
 
 ![Console Commander Top View](./4041%20Console%20Commander%20top%20view.jpg)
+
+My 4041 Console Commander is a tiny Arduino computer directly connected to the 4041 keyboard connector with three breadboard jumper cables (no need for the expensive LEMO connector).
+
+The second photo shows the top of the 4041 Console Commander
