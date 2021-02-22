@@ -33,7 +33,9 @@ Here is a screenshot of starting an Adventure game.
 Notice the screensize is different and font size is different.  These are Tera Term settings for VT screens.
 
 In order to change the Tera Term **Tek window size** you need to follow these steps:
+
 https://superuser.com/questions/1069620/enlarge-a-specific-application-in-windows-10
+
 After following the above instructions, you will be able to resize the Tera Term Tek window by dragging the corner like most windows apps.
 
 ![Adventure game](./New%20Game.png)
