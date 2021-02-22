@@ -16,8 +16,9 @@ void Timeout(){
     M5.dis.drawpix(0, 0x00ffff);
     M5.update();
     Serial2.println("Set driver \"COMM0(BAUD=9600,STOP=1,FLA=BID,EDIT=RAS):\"");
+    delay(750);
     Serial2.println("set console\"COMM0:\" ! Adventure 9600 8N1");
-    delay(2000);
+    delay(750);
     M5.dis.drawpix(0, 0x000000);
     M5.update();
     } else {
