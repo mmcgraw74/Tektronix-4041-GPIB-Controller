@@ -22,9 +22,9 @@ If the download was successful without errors, type RUN at the 4041 BASIC prompt
 
 Here is a screenshot of the one-file Adventure game instructions from a Tera Term "Tek" window automatically launched when you run the program
 
-![Adventure Instructions](./Super%20Adventure%20instructions.png)
+![Adventure Instructions](./Adventure%20instructions%20page%201.png)
 
 and here is a screenshot of a game, with variable wind and tracer lines for the shots from each side.
 
-![Adventure game](./Adventure%20game.png)
+![Adventure game](./New%20Game.png)
 
