@@ -34,5 +34,5 @@ This version has the ability to SAVE and LOAD games to your PC using Tera Term "
 
 This screenshot shows a previously saved game loaded into memory:
 
-![Adventure Load game](./Loaded%20SAVE%20game%201.png)
+![Adventure Load game](./Adventure%20LOAD%20saved%20game.png)
 
