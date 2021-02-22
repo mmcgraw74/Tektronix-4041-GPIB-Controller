@@ -10,21 +10,29 @@ Here are the two commands I send to my 4041 from the front panel serial port (or
 
 The "!" in 4041 BASIC starts a comment - which in this case echoes the following characters to the front panel LEDs before changing the console to COMM0:
 ```
-Set driver "COMM0(BAUD=9600,STOP=1,FLA=BID,EDIT=STO):"
-Set console "COMM0:" !S_Artillery 9600 8N1"
+Set driver "COMM0(BAUD=9600,STOP=1,FLA=BID,EDIT=RAS):"
+Set console "COMM0:" ! Adventure 9600 8N1"
 ```
 
-Then you can use Tera Term "Send File" to send the Super Artillery text file to the 4041.  
+Then you can use Tera Term "Send File" to send the **Adventure4041_one_file** text file to the 4041.  
 
 If you hear 4041 speaker beeps during the transfer - this means you have not configured XON/XOFF on Tera Term or the 4041.  You have to cancel the Tera Term program transfer, then press the ABORT front panel key on the 4041 until the beeps (BELL) stops.  Then check the Tera Term and 4041 settings and fix the issue and try the download again.
 
 If the download was successful without errors, type RUN at the 4041 BASIC prompt, and Tera Term should automatically open the "Tek" window which is used for this game text and graphics. 
 
-Here is a screenshot of the one-file Adventure game instructions from a Tera Term "Tek" window automatically launched when you run the program
+Here is a screenshot of the one-file Adventure game instructions from a Tera Term "VT or Tek" window when you run the program
 
 ![Adventure Instructions](./Adventure%20instructions%20page%201.png)
 
-and here is a screenshot of a game, with variable wind and tracer lines for the shots from each side.
+Here is a screenshot of starting an Adventure game.
 
 ![Adventure game](./New%20Game.png)
+
+Adventure is a complex maze loaded with treasures and hazards like trolls and a Pirate that will steal all your treasure.
+
+This version has the ability to SAVE and LOAD games to your PC using Tera Term "Send file" and "Log" commands respectively.
+
+This screenshot shows a previously saved game loaded into memory:
+
+![Adventure Load game](./Loaded%20SAVE%20game%201.png)
 
