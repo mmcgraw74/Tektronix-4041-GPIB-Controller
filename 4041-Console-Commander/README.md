@@ -6,7 +6,7 @@ A second serious issue with using the 4041 is the lack of the custom 4041 Progra
 
 After spending several months trying to keep my repaired DC100A tapes working to configure my 4041 console to COMM0: I have come up with a new solution:
 **********************
-#My 4041 Console Commander!
+# My 4041 Console Commander!
 **********************
 
 ![Console Commander in operation](./Console%20Commander%20in%20operation-sm.jpg)
